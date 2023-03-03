@@ -10,10 +10,6 @@ html, body {
     font-size: 14px;
 }
 
-/*h1 {*/
-/*    font-size: 1.5rem;*/
-/*}*/
-
 main {
     margin: auto;
     max-width: 24rem;
@@ -24,6 +20,10 @@ main {
 
 div {
     margin-bottom: 20px;
+}
+
+section {
+    margin-left: 50px;
 }
 
 .p-tag {
@@ -63,13 +63,3 @@ a:hover {
     opacity: 0.85;
 }
 
-/*#blink {*/
-/*    -webkit-animation: blink 1s linear infinite;*/
-/*    animation: blink 1s linear infinite;*/
-/*}*/
-/*@-webkit-keyframes blink {*/
-/*    100% { color: rgba(34, 34, 34, 0); }*/
-/*}*/
-/*@keyframes blink {*/
-/*    100% { color: rgba(34, 34, 34, 0); }*/
-/*}*/
