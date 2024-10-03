@@ -1,5 +1,5 @@
 ---
-title: About
+title: Almaz Gabdulbarov | About
 layout: default
 stylesheet: styles.css
 ---
