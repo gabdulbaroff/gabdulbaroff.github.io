@@ -19,25 +19,6 @@ header {
     align-items: end;
 }
 
-.nav-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    color: white;
-    border-bottom: unset;
-    padding: 5px 9px;
-    background-color: #2B2B2B;
-    border-radius: 9px;
-    transition: transform .3s ease-in-out;
-}
-
-.nav-item:hover {
-    opacity: 1;
-    transform: scale(1.03);
-
-}
-
 main {
     margin: 30px auto auto;
     max-width: 33rem;
@@ -107,8 +88,31 @@ a:hover {
     animation: blink 1.5s step-end infinite;
 }
 
-.blog-sub-title {
-    
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    border-bottom: unset;
+    padding: 5px 9px;
+    background-color: #2B2B2B;
+    border-radius: 9px;
+    transition: transform .3s ease-in-out;
+}
+
+.article-paragraph {
+    opacity: 1 !important;
+}
+
+.article-paragraph p {
+    color: white;
+    transition: transform .3s ease-in-out;
+}
+
+.nav-item:hover, .article-paragraph p:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 @keyframes blink {
