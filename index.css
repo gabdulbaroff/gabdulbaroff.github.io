@@ -19,10 +19,6 @@ header {
     align-items: end;
 }
 
-nav {
-    margin-top: 10px;
-}
-
 .nav-item {
     display: flex;
     align-items: center;
@@ -30,9 +26,9 @@ nav {
 
     color: white;
     border-bottom: unset;
-    padding: 4px 8px;
+    padding: 5px 9px;
     background-color: #2B2B2B;
-    border-radius: 8px;
+    border-radius: 9px;
     transition: transform .3s ease-in-out;
 }
 
