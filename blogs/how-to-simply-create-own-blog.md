@@ -1,7 +1,7 @@
 ---
 title: How to create your own blog using Github Pages and Markdown
 layout: default
-stylesheet: article.css
+stylesheet: ../article.css
 ---
 
 # How to simply create your own blog using Github Pages and Markdown
