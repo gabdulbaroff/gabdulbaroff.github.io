@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     width: 100%;
 
-    background-color: black;
+    background-color: #1E1E1E;
     font-family: 'Source Code Pro', monospace;
     color: white;
     font-size: 14px;
@@ -64,4 +64,30 @@ a {
 a:hover {
     opacity: 0.85;
 }
+
+.sub-title {
+    position: relative;
+    padding-left: 10px;
+}
+
+.sub-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    animation: blink 1.5s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
+}
+
 
