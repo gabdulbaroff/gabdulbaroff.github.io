@@ -11,6 +11,37 @@ html, body {
     overflow: hidden;
 }
 
+header {
+    margin: auto;
+    max-width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    border-bottom: unset;
+    padding: 4px 8px;
+    background-color: #2B2B2B;
+    border-radius: 8px;
+    transition: transform .3s ease-in-out;
+}
+
+.nav-item:hover {
+    opacity: 1;
+    transform: scale(1.03);
+
+}
+
 main {
     margin: 30px auto auto;
     max-width: 33rem;
@@ -87,14 +118,6 @@ a:hover {
     50.01%, 100% {
         opacity: 0;
     }
-}
-
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    color: white;
-    position: fixed;
-    padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
