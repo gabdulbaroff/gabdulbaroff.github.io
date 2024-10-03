@@ -12,9 +12,8 @@ html, body {
 }
 
 main {
-    margin: auto;
-    margin-top: 30px;
-    max-width: 24rem;
+    margin: 30px auto auto;
+    max-width: 33rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,3 +97,8 @@ a:hover {
     padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+        max-width: 80%;
+    }
+}
