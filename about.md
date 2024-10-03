@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default
+stylesheet: styles.css
 ---
 
 # About Page
