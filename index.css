@@ -91,12 +91,12 @@ a:hover {
     opacity: 0.85;
 }
 
-.sub-title {
+.sub-title, .blog-sub-title {
     position: relative;
     padding-left: 10px;
 }
 
-.sub-title::before {
+.sub-title::before, .blog-sub-title:before {
     content: '';
     position: absolute;
     left: 0;
@@ -105,6 +105,10 @@ a:hover {
     width: 2px;
     background-color: white;
     animation: blink 1.5s step-end infinite;
+}
+
+.blog-sub-title {
+    
 }
 
 @keyframes blink {
