@@ -4,7 +4,7 @@ layout: default
 stylesheet: ../article.css
 ---
 
-<image src="./blog.jpg" alt="Описание картинки">
+<image id="header-image" src="./blog.jpg" alt="Blog image"></image>
 
 
 # How to Create Your Own Blog for Free with GitHub Pages

@@ -115,3 +115,9 @@ pre.highlight code::after {
 #conclusion {
     color: #ffc66d;
 }
+
+#header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
