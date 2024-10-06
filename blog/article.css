@@ -84,10 +84,12 @@ pre.highlight code::after {
     content: '';
 }
 
-div.highlight {
-    overflow-x: auto;
-}
 
+@media screen and (max-width: 500px) {
+    div.highlight {
+        overflow-x: auto;
+    }
+}
 
 @keyframes blink {
     0%, 50% {
