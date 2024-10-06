@@ -36,4 +36,7 @@ It turns out that it is possible with github pages
 6. Once you commit your changes and push them to the repository, GitHub Pages will automatically publish your blog at https://yourusername.github.io. You can start sharing your blog link with the world!
 
 ## Conclusion
-Creating a blog on GitHub Pages is a fantastic way to establish an online presence without paying for hosting. For example, this article was created here using github pages. Isn't this a miracle?
+Creating a blog on GitHub Pages is a fantastic way to establish an online presence without paying for hosting. For example, this article was created here using github pages. Isn't this a miracle? 
+
+
+[Return to blog page](https://gabdulbaroff.github.io/blog "Almaz Gabdulbarov | Blog")
