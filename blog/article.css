@@ -33,6 +33,11 @@ div {
 
 h1, h2, h3, h4, h5,  code, pre {
     width: 100%;
+    padding-left: 10px;
+}
+
+h1 {
+    position: relative;
 }
 
 h1::before {
