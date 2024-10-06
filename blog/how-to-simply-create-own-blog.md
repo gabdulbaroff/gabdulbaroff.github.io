@@ -28,7 +28,7 @@ It turns out that it is possible with github pages
    ```
 4. Customize Your Blog
    * Add a theme: GitHub Pages supports several pre-built themes. To add one, create a _config.yml file in your repository and add this line:
-   ```js
+   ```
    theme: minima
    ```
    * You can also edit the CSS or HTML files if you want more control over the design.
