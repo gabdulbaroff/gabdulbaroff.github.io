@@ -18,19 +18,19 @@ It turns out that it is possible with github pages
    * Create a new file in your repository called index.md or index.html.
    * If you’re using Markdown (index.md), you can write your first post like this:
 
-```
----
-title: Welcome to My Blog
----
-# Hello, World!
-
-This is my first blog post on GitHub Pages. Stay tuned for more updates!
-```
+   ```
+   ---
+   title: Welcome to My Blog
+   ---
+   # Hello, World!
+   
+   This is my first blog post on GitHub Pages. Stay tuned for more updates!
+   ```
 4. Customize Your Blog
    * Add a theme: GitHub Pages supports several pre-built themes. To add one, create a _config.yml file in your repository and add this line:
-```js
-theme: minima
-```
+   ```js
+   theme: minima
+   ```
    * You can also edit the CSS or HTML files if you want more control over the design.
 5. Publish Your Blog
 6. Once you commit your changes and push them to the repository, GitHub Pages will automatically publish your blog at https://yourusername.github.io. You can start sharing your blog link with the world!
