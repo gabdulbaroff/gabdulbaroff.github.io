@@ -7,7 +7,7 @@ stylesheet: ../article.css
 <image id="header-image" src="./blog.jpg" alt="Blog image"></image>
 
 
-# How to Create Your Own Blog for Free with GitHub Pages
+# How to Create Your Own Blog for Free with GitHub Pages and Markdown
 As a programmer, I often have to write documentation using markdown markup. 
 And I like to write down somewhere what I've learned. I was curious - is it possible to just use markdown to run your blog. 
 It turns out that it is possible with github pages
