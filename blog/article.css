@@ -44,6 +44,14 @@ p, ol, ul {
     line-height: 1.5rem;
 }
 
+main {
+    width: 70%;
+}
+
+ol, ul {
+    width: 90%;
+}
+
 h1::before {
     content: '';
     position: absolute;
