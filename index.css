@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-    opacity: 0.85;
+    color: green;
 }
 
 .sub-title, .blog-sub-title {
@@ -103,6 +103,7 @@ a:hover {
 
 .article-paragraph {
     opacity: 1 !important;
+    color: white;
 }
 
 .article-paragraph p {
@@ -112,6 +113,7 @@ a:hover {
 
 .nav-item:hover, .article-paragraph p:hover {
     opacity: 1;
+    color: white;
     transform: scale(1.1);
 }
 
