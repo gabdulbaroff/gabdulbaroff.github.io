@@ -34,3 +34,23 @@ div {
 h1, h2, h3, h4, h5,  code, pre {
     width: 100%;
 }
+
+h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    animation: blink 1.5s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
+}
