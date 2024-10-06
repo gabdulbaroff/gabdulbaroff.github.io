@@ -51,6 +51,28 @@ h1::before {
     animation: blink 1.5s step-end infinite;
 }
 
+pre.highlight {
+    background-color: #282C34;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    color: #ABB2BF;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+pre.highlight code {
+    font-family: "Courier New", Courier, monospace;
+    background: none;
+    color: inherit;
+}
+
+pre.highlight code::before,
+pre.highlight code::after {
+    content: '';  
+}
+
+
 @keyframes blink {
     0%, 50% {
         opacity: 1;
