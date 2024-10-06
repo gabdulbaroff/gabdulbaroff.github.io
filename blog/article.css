@@ -40,6 +40,10 @@ h1 {
     position: relative;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 h1::before {
     content: '';
     position: absolute;
@@ -56,7 +60,7 @@ pre.highlight {
     padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
-    color: #ABB2BF;
+    color: white;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -64,12 +68,12 @@ pre.highlight {
 pre.highlight code {
     font-family: "Courier New", Courier, monospace;
     background: none;
-    color: inherit;
+    color: white;
 }
 
 pre.highlight code::before,
 pre.highlight code::after {
-    content: '';  
+    content: '';
 }
 
 
