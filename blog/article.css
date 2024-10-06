@@ -56,9 +56,9 @@ h1::before {
 }
 
 pre.highlight {
-    background-color: #282C34;
+    background-color: #2B2B2B;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 3px;
     overflow-x: auto;
     color: white;
     font-size: 14px;
@@ -84,4 +84,16 @@ pre.highlight code::after {
     50.01%, 100% {
         opacity: 0;
     }
+}
+
+#how-to-create-your-own-blog-for-free-with-github-pages {
+    color: #9876aa;
+}
+
+#steps-to-create-a-blog-with-github-pages {
+    color: #A9B7C6;
+}
+
+#conclusion {
+    color: #ffc66d;
 }
