@@ -1,3 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: #1E1E1E;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 14px;
+    overflow: auto;
+}
+
+header {
+    margin: auto;
+    max-width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 main {
-    /*background-color: red;*/
+    margin: 30px auto auto;
+    max-width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    margin-bottom: 20px;
 }
