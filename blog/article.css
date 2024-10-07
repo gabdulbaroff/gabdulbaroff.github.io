@@ -92,6 +92,7 @@ pre.highlight code::after {
 
     main {
         width: 80%;
+        max-width: 80%;
     }
 }
 
